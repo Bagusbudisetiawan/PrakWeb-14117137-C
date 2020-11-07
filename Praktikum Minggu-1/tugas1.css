@@ -1,0 +1,16 @@
+body{
+    margin: auto;
+}
+header{
+    width: 784px;
+    height: 200px;
+    background-color: #ded8c5;
+    border: 3px solid black;
+}
+footer{
+    width: 784px;
+    height: 100px;
+    background-color: #b1a1c6;
+    border: 3px solid black;
+    clear: left;
+}
