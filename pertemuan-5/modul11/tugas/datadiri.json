@@ -1,0 +1,43 @@
+{
+    "DataDiri": {
+        "nama": {
+            "awal": "Bagus Budi",
+            "akhir": "Setiawan"
+        },
+
+        "jenisKelamin": "Laki-laki",
+
+        "alamat": {
+            "jalan": "jalan imam bonjol gg flamboyan",
+            "kecamatan": "Langkapura",
+            "kelurahan": "Gunung Agung",
+            "kota" : "Bandar Lampung"
+        },
+
+        "mediaSosial": {
+            "facebook": "Bagus Budi Setiawan",
+            "instagram": "bagusbudistwn"
+        },
+
+        "saudara": {},
+
+        "orangTua": {
+            "bapak": {
+                "nama": {
+                    "awal": "Biran",
+                    "akhir": "aja"
+                }
+            },
+            "ibu": {
+                "nama": {
+                    "awal": "Fajriati",
+                    "akhir": "aja"
+                }
+            }
+        },
+
+        "hobi": {
+            "kegiatan": ["Ngerjain Telaga","Ngunci Kucing dino diluar"]
+        }
+    }
+}

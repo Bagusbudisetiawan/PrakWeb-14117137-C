@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<DataDiri>
+    <nama>
+        <awal>Bagus Budi</awal>
+        <akhir>Setiawan</akhir>
+    </nama>
+
+    <jenisKelamin>Laki-laki</jenisKelamin>
+
+    <alamat>
+        <jalan>jalan imam bonjol gg flamboyan</jalan>
+        <kecamatan>Langkapura</kecamatan>
+        <kelurahan>Gunung Agung</kelurahan>
+        <kota>Bandar Lampung</kota>
+    </alamat>
+
+    <mediaSosial>
+        <facebook>Bagus Budi Setiawan</facebook>
+        <instagram>bagusbudistwn</instagram>
+    </mediaSosial>
+
+    <saudara>
+    </saudara>
+
+    <orangTua>
+        <bapak>
+            <nama>
+                <awal>Biran</awal>
+                <akhir>aja</akhir>
+            </nama>
+        </bapak>
+
+        <ibu>
+            <nama>
+                <awal>Fajriati</awal>
+                <akhir>aja</akhir>
+            </nama>
+        </ibu>
+    </orangTua>
+
+    <hobi>
+        <kegiatan>Ngerjain Telaga</kegiatan>
+        <kegiatan>Ngunci Kucing dino diluar</kegiatan>
+    </hobi>
+</DataDiri>
