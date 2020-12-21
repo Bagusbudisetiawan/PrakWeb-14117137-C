@@ -1,0 +1,185 @@
+a {
+  color: #218c74;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #41ac94;
+}
+
+a:active {
+  color: #016c54;
+}
+
+body {
+  background: #f0f0f0;
+  font-family: "Open Sans", sans-serif;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header {
+  background: url("img/jumbo.jpg");
+  background-size: cover;
+  -webkit-box-shadow: 0px 2px 16px #888;
+          box-shadow: 0px 2px 16px #888;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 320px;
+  margin-bottom: 32px;
+}
+
+header navbar {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  background: -webkit-gradient(linear, left bottom, left top, from(black), color-stop(0%, black), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(0deg, black 0%, black 0%, rgba(255, 255, 255, 0) 100%);
+  width: 100%;
+}
+
+header navbar ul {
+  list-style-type: none;
+}
+
+header navbar ul li {
+  float: left;
+  padding: 1rem;
+}
+
+main .deck {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+main .deck .card {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 2px 16px #888;
+          box-shadow: 0px 2px 16px #888;
+  width: 31.5%;
+}
+
+main .deck .card .card-image {
+  height: 320px;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+
+main .deck .card .card-image img {
+  height: 100%;
+  width: 100%;
+}
+
+main .deck .card .card-body .card-content {
+  line-height: 1.8;
+  padding: 2rem;
+}
+
+main .deck .card .card-body .card-content h3 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+main .deck .card .card-body .card-content p {
+  margin: 0;
+}
+
+main .deck .card .card-body .card-content .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+main .deck .card .card-body .card-content .row .content {
+  font-weight: lighter;
+}
+
+main .post {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 2px 16px #888;
+          box-shadow: 0px 2px 16px #888;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 2rem;
+}
+
+main .post .post-thumbnail {
+  min-height: 240px;
+  min-width: 240px;
+  height: 240px;
+  width: 240px;
+}
+
+main .post .post-thumbnail img {
+  height: 100%;
+  width: 100%;
+}
+
+main .post .post-body {
+  padding: 2rem;
+}
+
+main .post .post-body .post-header p {
+  font-size: 1.17rem;
+  font-weight: bold;
+}
+
+main .post .post-body .post-content p {
+  line-height: 1.8;
+}
+
+main .post.reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.button-primary {
+  background-color: #218c74;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+.container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 3rem;
+  padding-right: 4rem;
+  padding-bottom: 2rem;
+  padding-left: 4rem;
+}
+
+.form-control {
+  border: 1px solid #cccccc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.w-100 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

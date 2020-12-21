@@ -1,0 +1,190 @@
+$color-primary-light: #41ac94;
+$color-primary: #218c74;
+$color-primary-dark: #016c54;
+$color-bg: #f0f0f0;
+$color-bg-pop: #ffffff;
+$color-bottom-vig: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+$color-shadow: 0px 2px 16px #888;
+
+$img-header: url('img/jumbo.jpg');
+
+$font-family: "Open Sans", sans-serif;
+
+
+
+
+
+
+a {
+    color: $color-primary;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $color-primary-light;
+}
+
+a:active {
+    color: $color-primary-dark;
+}
+
+body {
+    background: $color-bg;
+    font-family: $font-family;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header {
+    background: $img-header;
+    background-size: cover;
+    box-shadow: $color-shadow;
+    display: flex;
+    height: 320px;
+    margin-bottom: 32px;
+
+    navbar {
+        align-self: flex-end;
+        background: $color-bottom-vig;
+        width: 100%;
+
+        ul {
+            list-style-type: none;
+
+            li {
+                float: left;
+                padding: 1rem;
+            }
+        }
+    }
+}
+
+main {
+
+    .deck {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+        width: 100%;
+
+        .card {
+            background-color: $color-bg-pop;
+            box-shadow: $color-shadow;
+            width: 31.5%;
+            
+            .card-image {
+                height: 320px;
+                margin: 0;
+                padding: 0;
+                width: auto;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+
+            .card-body {
+                .card-content {
+                    line-height: 1.8;
+                    padding: 2rem;
+                    
+                    h3 {
+                        margin: {
+                            top: 0;
+                            bottom: 2rem;
+                        }
+                    }
+                    
+                    p {
+                        margin: 0;
+                    }
+                    
+                    .row {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 1rem;
+                        
+                        .content {
+                            font-weight: lighter;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+    
+    .post {
+        background: $color-bg-pop;
+        box-shadow: $color-shadow;
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 2rem;
+
+        .post-thumbnail {
+            min-height: 240px;
+            min-width: 240px;
+            height: 240px;
+            width: 240px;
+
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        .post-body {
+            padding: 2rem;
+
+            .post-header {
+                p {
+                    font-size: 1.17rem;
+                    font-weight: bold;
+                }
+            }
+
+            .post-content {
+                p {
+                    line-height: 1.8;
+                }
+            }
+        }
+    }
+
+    .post.reverse {
+        flex-direction: row-reverse;
+    }
+}
+
+.button-primary {
+    background-color: $color-primary;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.container {
+    box-sizing: border-box;
+    padding: {
+        top: 3rem;
+        right: 4rem;
+        bottom: 2rem;
+        left: 4rem;
+    }
+}
+
+.form-control {
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+.w-100 {
+    box-sizing: border-box;
+    width: 100%;
+}
